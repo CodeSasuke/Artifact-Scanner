@@ -1,0 +1,44 @@
+{
+  "name": "artifact-scanner",
+  "version": "1.0.0",
+  "description": "Production-quality, privacy-first browser extension to detect conversational artifacts in text intended for finished writing.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite build --watch --mode development",
+    "build": "tsc && vite build",
+    "package": "npm run build && cd dist && zip -r -FS ../artifact-scanner-v1.0.0.zip . -x '*.DS_Store*'",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "train": "ts-node scripts/trainModel.ts"
+  },
+  "keywords": [
+    "browser-extension",
+    "manifest-v3",
+    "nlp",
+    "proofreading",
+    "writing-assistant",
+    "privacy-first"
+  ],
+  "author": "Artifact Scanner Contributors",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "^0.0.260",
+    "@types/node": "^20.11.24",
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.18",
+    "clsx": "^2.1.0",
+    "lucide-react": "^0.344.0",
+    "postcss": "^8.4.35",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss": "^3.4.1",
+    "tsx": "^4.23.15",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4",
+    "vitest": "^1.3.1"
+  }
+}
