@@ -168,7 +168,7 @@ export const App: React.FC = () => {
         </div>
       )}
 
-      {/* When no scan has been done, or when user clicks New Scan: show minimal input */}
+      {/* When no scan has been done, or when user clicks New Scan: show input */}
       {(!scanResult || isEditing) ? (
         <div className="space-y-3 flex-1 flex flex-col justify-center max-w-sm mx-auto w-full">
           <div className="space-y-1 text-center">

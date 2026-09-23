@@ -77,7 +77,7 @@ export const FindingCard: React.FC<FindingCardProps> = ({
         </button>
       </div>
 
-      {/* Minimal dropdown options if user needs them */}
+      {/* Dropdown options if user needs them */}
       {showDetails && (
         <div className="pt-2 border-t border-zinc-900 space-y-1 text-xs">
           <button

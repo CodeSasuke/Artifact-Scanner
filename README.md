@@ -1,6 +1,6 @@
 # Artifact Scanner
 
-A minimalist Chrome extension that catches and removes conversational AI remnants from writing before you hit publish.
+An open-source Chrome extension that catches and removes conversational AI remnants from writing before you hit publish.
 
 No tracking. No accounts. 100% offline.
 
