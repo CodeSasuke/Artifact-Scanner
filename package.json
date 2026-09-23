@@ -20,6 +20,14 @@
     "writing-assistant",
     "privacy-first"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodeSasuke/Artifact-Scanner.git"
+  },
+  "homepage": "https://github.com/CodeSasuke/Artifact-Scanner#readme",
+  "bugs": {
+    "url": "https://github.com/CodeSasuke/Artifact-Scanner/issues"
+  },
   "author": "Artifact Scanner Contributors",
   "license": "MIT",
   "devDependencies": {

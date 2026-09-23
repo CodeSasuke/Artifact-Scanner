@@ -18,7 +18,7 @@
 ## ⚡ 1-Minute Quick Install (Free via GitHub)
 
 No command line needed:
-1. Go to the [Releases](https://github.com/your-username/artifact-scanner/releases) tab and download **`artifact-scanner-v1.0.0.zip`**.
+1. Go to the [Releases](https://github.com/CodeSasuke/Artifact-Scanner/releases) tab and download **`artifact-scanner-v1.0.0.zip`**.
 2. Unzip the downloaded file.
 3. Open Google Chrome (or Edge, Brave, Arc) and go to `chrome://extensions`.
 4. Turn on **Developer mode** (toggle in the top-right corner).
@@ -113,8 +113,8 @@ Structured Scan Results & Cleaned Text
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/artifact-scanner.git
-cd artifact-scanner
+git clone https://github.com/CodeSasuke/Artifact-Scanner.git
+cd Artifact-Scanner
 npm install
 ```
 
